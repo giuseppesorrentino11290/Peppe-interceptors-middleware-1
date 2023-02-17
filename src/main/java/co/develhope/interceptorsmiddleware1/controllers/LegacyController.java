@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LegacyController {
 
 
-    @GetMapping("/")
+    @GetMapping("/legacycode")
     public String legacyMessage(){
         return "This is just old code";
     }
